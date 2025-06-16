@@ -255,11 +255,11 @@ const Contact = () => {
               <div className="space-y-4">
                 <div className="flex items-center">
                   <Mail className="w-5 h-5 text-blue-600 mr-3" />
-                  <span className="text-gray-700">srinivas@example.com</span>
+                  <span className="text-gray-700">psrinivas9381@example.com</span>
                 </div>
                 <div className="flex items-center">
                   <Phone className="w-5 h-5 text-green-600 mr-3" />
-                  <span className="text-gray-700">+91 XXXXX XXXXX</span>
+                  <span className="text-gray-700">+91 7901014143</span>
                 </div>
                 <div className="flex items-center">
                   <MapPin className="w-5 h-5 text-red-600 mr-3" />
