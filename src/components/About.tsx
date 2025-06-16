@@ -36,6 +36,16 @@ const About = () => {
     { icon: <Heart className="w-6 h-6" />, value: '100%', label: 'Passion' },
   ];
 
+  const handleDownloadResume = () => {
+    // Create a link element and trigger download
+    const link = document.createElement('a');
+    link.href = '/autoCV.pdf'; // Path to your resume file
+    link.download = 'Patchipala_Srinivas_Resume.pdf'; // Name for downloaded file
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
+
   return (
     <section id="about" className="py-32 relative overflow-hidden bg-gradient-to-br from-slate-50 via-blue-50 to-indigo-100">
       {/* Enhanced Background Elements */}
@@ -159,6 +169,7 @@ const About = () => {
                   y: -3
                 }}
                 whileTap={{ scale: 0.95 }}
+                onClick={handleDownloadResume}
                 className="group w-full sm:w-auto px-8 py-4 bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600 text-white rounded-2xl font-semibold shadow-xl hover:shadow-2xl transition-all duration-500 flex items-center justify-center space-x-3"
               >
                 <Download className="w-5 h-5 group-hover:translate-y-1 transition-transform duration-300" />

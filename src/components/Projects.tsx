@@ -35,9 +35,9 @@ const Projects = () => {
     },
     {
       id: 4,
-      title: '8 Queen Game',
-      description: 'Classic chess puzzle game with intelligent solving algorithms',
-      image: 'https://images.unsplash.com/photo-1606092195730-5d7b9af1efc5?w=400&h=250&fit=crop',
+      title: '8 Queen Chess Puzzle',
+      description: 'Strategic chess puzzle game with intelligent solving algorithms and interactive gameplay',
+      image: 'https://images.unsplash.com/photo-1528819622765-d6bcf132f793?w=400&h=250&fit=crop',
       category: '2025',
       tech: ['JavaScript', 'Algorithm', 'Game Logic'],
       liveUrl: 'https://srinivasaiml.github.io/project/queen.html'

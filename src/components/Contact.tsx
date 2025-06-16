@@ -100,7 +100,7 @@ const Contact = () => {
     {
       icon: <Mail className="w-6 h-6" />,
       label: 'Email',
-      url: 'mailto:srinivas@example.com',
+      url: 'mailto:psrinivas9381@gmail.com',
       color: 'from-red-500 to-red-700'
     },
     {
@@ -255,7 +255,7 @@ const Contact = () => {
               <div className="space-y-4">
                 <div className="flex items-center">
                   <Mail className="w-5 h-5 text-blue-600 mr-3" />
-                  <span className="text-gray-700">psrinivas9381@example.com</span>
+                  <span className="text-gray-700">psrinivas9381@gmail.com</span>
                 </div>
                 <div className="flex items-center">
                   <Phone className="w-5 h-5 text-green-600 mr-3" />
