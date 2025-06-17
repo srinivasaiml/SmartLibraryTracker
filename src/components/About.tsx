@@ -40,7 +40,7 @@ const About = () => {
     // Create a link element and trigger download
     const link = document.createElement('a');
     link.href = '/autoCV.pdf'; // Path to your resume file
-    link.download = 'Patchipala_Srinivas_Resume.pdf'; // Name for downloaded file
+    link.download = 'autoCV.pdf'; // Name for downloaded file
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
