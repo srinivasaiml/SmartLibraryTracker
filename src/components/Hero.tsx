@@ -1,10 +1,6 @@
 import React, { useEffect, useRef } from 'react';
 import { motion } from 'framer-motion';
-<<<<<<< HEAD
 import { Download, Eye, Sparkles } from 'lucide-react';
-=======
-import { ChevronDown, Download, Eye, Sparkles } from 'lucide-react';
->>>>>>> 314055302507ad192e96b0e4b644004ea1e5b479
 
 const Hero = () => {
   const canvasRef = useRef<HTMLCanvasElement>(null);
@@ -272,28 +268,6 @@ const Hero = () => {
           ))}
         </motion.div>
       </div>
-<<<<<<< HEAD
-=======
-
-      <motion.div
-        animate={{ 
-          y: [0, 15, 0],
-          opacity: [0.5, 1, 0.5]
-        }}
-        transition={{ 
-          duration: 2, 
-          repeat: Infinity,
-          ease: "easeInOut"
-        }}
-        className="absolute bottom-10 left-1/2 transform -translate-x-1/2 cursor-pointer"
-        onClick={() => document.getElementById('about')?.scrollIntoView({ behavior: 'smooth' })}
-      >
-        <div className="flex flex-col items-center space-y-2">
-          <span className="text-sm text-gray-500 font-medium">Scroll Down</span>
-          <ChevronDown className="text-blue-600 w-8 h-8" />
-        </div>
-      </motion.div>
->>>>>>> 314055302507ad192e96b0e4b644004ea1e5b479
     </section>
   );
 };
