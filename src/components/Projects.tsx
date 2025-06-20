@@ -28,7 +28,11 @@ const Projects = () => {
       id: 3,
       title: 'Flames Calculator',
       description: 'Interactive relationship compatibility calculator with modern UI',
+<<<<<<< HEAD
       image: 'https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=400&h=250&fit=crop',
+=======
+      image: 'https://images.unsplash.com/photo-1518621012931-a1ca72c5f2d1?w=400&h=250&fit=crop',
+>>>>>>> 314055302507ad192e96b0e4b644004ea1e5b479
       category: '2025',
       tech: ['JavaScript', 'CSS3', 'HTML5'],
       liveUrl: 'https://srinivasaiml.github.io/project/flames.html'
@@ -59,6 +63,7 @@ const Projects = () => {
       category: '2024',
       tech: ['Python', 'GPS', 'Real-time'],
       liveUrl: 'https://srinivasaiml.github.io/Codesoft/success.html'
+<<<<<<< HEAD
     },
     {
       id: 7,
@@ -86,6 +91,8 @@ const Projects = () => {
       category: '2023',
       tech: ['JavaScript', 'Game', 'UI/UX'],
       liveUrl: 'https://srinivasaiml.github.io/project/tictak.html'
+=======
+>>>>>>> 314055302507ad192e96b0e4b644004ea1e5b479
     }
   ];
 
@@ -202,7 +209,10 @@ const ProjectCard = ({ project, index }: { project: any; index: number }) => {
           src={project.image}
           alt={project.title}
           className="w-full h-48 object-cover"
+<<<<<<< HEAD
           referrerPolicy="no-referrer"
+=======
+>>>>>>> 314055302507ad192e96b0e4b644004ea1e5b479
           whileHover={{ scale: 1.1 }}
           transition={{ duration: 0.3 }}
         />

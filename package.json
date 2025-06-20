@@ -4,6 +4,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+<<<<<<< HEAD
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -18,6 +19,22 @@
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "three": "^0.158.0"
+=======
+ "scripts": {
+  "dev": "vite",
+  "build": "vite build",
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d dist"
+},
+  "dependencies": {
+    "lucide-react": "^0.344.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "framer-motion": "^10.16.4",
+    "three": "^0.158.0",
+    "@react-three/fiber": "^8.15.11",
+    "@react-three/drei": "^9.88.13"
+>>>>>>> 314055302507ad192e96b0e4b644004ea1e5b479
   },
   "devDependencies": {
     "@eslint/js": "^9.9.1",

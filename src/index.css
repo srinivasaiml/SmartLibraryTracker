@@ -1,9 +1,17 @@
+<<<<<<< HEAD
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
+=======
+>>>>>>> 314055302507ad192e96b0e4b644004ea1e5b479
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+<<<<<<< HEAD
+=======
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+>>>>>>> 314055302507ad192e96b0e4b644004ea1e5b479
 * {
   margin: 0;
   padding: 0;
